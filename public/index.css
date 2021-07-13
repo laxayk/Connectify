@@ -1,0 +1,186 @@
+/*  
+DARK->LIGHT
+#0C0032 
+#190061
+#240090
+#3500D3
+
+GREY
+#282828
+
+*/
+
+html{
+
+    background: #0C0032;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    
+}
+.navbar{
+    margin-top: 0;
+    width: 100vw;
+    height: 100px;
+    background-color:#3500D3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.15),0 2px 10px rgba(0, 0, 0, 0.18 );
+    border-bottom-right-radius: 20%;
+    border-bottom-left-radius: 20%
+}
+.navbar .elements{
+    color: white;
+}
+h1{
+    font-weight: 300;
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+h2{
+    font-weight: 200;
+    font-size: 37px;
+    color: white;
+}
+p{
+    font-weight: 300;
+    font-size: 20px;
+    color: white;
+}
+.modal-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.modal{
+    z-index: 20;
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    box-shadow: 0 0 100px #3500d32c;
+    border-radius: 15px;
+    background: #282828;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.left-side{
+    height: 653px;
+    width: 300px;
+    background-color: #1B1464;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:flex-start
+}
+#videoDemoButton{
+    position: relative;
+    top: 20px
+}
+
+.google-signin{
+    margin-top: 30px;
+    background-color: white;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+.modal a{
+    text-decoration: none;
+
+    
+
+}
+.google-signin p{
+    color: rgb(83, 81, 81);
+    font-style: normal;
+    font-size: 22px;
+    font-weight: 400;
+    margin-left: 30px;
+}
+
+#google-image{
+    height: 25px;
+    width: 25px;
+    margin-left: 20px;
+}
+
+#videoDemoButton{
+    position: relative;
+    top: 300px;
+    justify-self: center;
+    font-size: 30PX;
+    letter-spacing: 2px;
+    font-weight: 200;
+    animation-duration: 0.01s;
+    animation-name: textflicker;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    background-color: rgb(255, 255, 255);
+    border-radius: 14px;
+    padding: 5px 10px;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.15),0 2px 10px rgba(0, 0, 0, 0.18 );
+}
+@keyframes textflicker {
+    from {
+      text-shadow: 1px 0 0 #ea36af, -2px 0 0 #75fa69;
+    }
+    to {
+      text-shadow: 2px 0.5px 2px #ea36af, -1px -0.5px 2px #75fa69;
+    }}
+  
+#user-login-details{
+    position: absolute;
+    top: 100px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.15),0 2px 10px rgba(0, 0, 0, 0.18 );
+    padding: 15px;
+}
+.user-details{
+    height: 500px;
+}
+#user-name{
+    margin-top: 20px;
+}
+#user-email{
+    margin-top: 20px;
+}
+#user-pic{
+    align-self: center;
+    border-radius: 15px;
+}
+header .row p{
+   
+}
+
